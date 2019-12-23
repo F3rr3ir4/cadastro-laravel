@@ -3,3 +3,11 @@ composer create-project laravel/laravel cadastro-laravel 6
 
 criar controller
 php artisan make:controller Usuario
+
+criar model Usuario usando o elequente
+php artisan make:model Model/Usuario
+
+limpar config do .env
+php artisan config:clear
+
+php artisan config:cache
